@@ -63,6 +63,7 @@ Overall, Java is a versatile language that can be used for a wide range of appli
   ======================
   JRE : java runtime environment
   JDK : java development kit
+  		-> JRE
   JVM : Java virtuval machine
 
 
