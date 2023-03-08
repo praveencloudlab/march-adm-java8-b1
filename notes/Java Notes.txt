@@ -6,6 +6,11 @@ There are three main types of Java platforms:
 ====================================================
 
 Java SE (Standard Edition): Java SE is the standard Java platform that provides the core functionality for developing and running Java applications. It includes the Java Development Kit (JDK), which provides the tools needed to develop Java applications, and the Java Runtime Environment (JRE), which is required to run Java applications.
+		CUI : character user interface
+		GUI : graphical user interface
+				AWT
+				SWINGS
+				JavaFX
 
 Java EE (Enterprise Edition): Java EE is a platform for building enterprise applications, such as large-scale web and mobile applications. It includes a set of standardized APIs and technologies for building scalable, secure, and robust applications, such as Servlets, JSP, EJB, JMS, JPA, and more.
 
@@ -52,6 +57,14 @@ Big Data: Java is commonly used for big data processing, with tools like Hadoop 
 Internet of Things (IoT): Java is also used for developing IoT applications, with tools like the Eclipse IoT platform providing a set of tools for building IoT applications.
 
 Overall, Java is a versatile language that can be used for a wide range of applications, making it a popular choice among developers.
+
+
+  JRE - JDK - JVM
+  ======================
+  JRE : java runtime environment
+  JDK : java development kit
+  JVM : Java virtuval machine
+
 
 
 Naming convensions
