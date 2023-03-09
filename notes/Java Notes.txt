@@ -70,20 +70,16 @@ Overall, Java is a versatile language that can be used for a wide range of appli
 
 Naming convensions
 ====================
-Class names: Class names should be nouns, written in camel case, with the first letter of each word capitalized. For example, MyClass, AccountManager, or CustomerOrder.
+Class names: Class names should be nouns, with the first letter of each word capitalized. For example, MyClass, AccountManager, or CustomerOrder, Employee
 
-Method names: Method names should be verbs, written in camel case, with the first letter of the first word in lowercase. For example, calculateTotal(), saveData(), or printReport().
+Method names: Method names should be verbs, written in camel case, with the first letter of the first word in lowercase. For example, calculateTotal(), saveData(), or printReport() or display()
 
 Variable names: Variable names should be written in camel case, starting with a lowercase letter. For example, firstName, lastName, or orderNumber.
 
 Constant names: Constants are variables that are declared with the 'final' keyword, which means their value cannot be changed. Constant names should be in all uppercase letters, with words separated by underscores. For example, MAX_VALUE, MIN_VALUE, or DEFAULT_TIMEOUT.
 
-Package names: Package names should be all lowercase letters and should be in reverse domain name format, e.g. com.example.mypackage. This helps to prevent naming conflicts between different projects or developers.
+Package names/keywords: Package names should be all lowercase letters.
 
-Acronyms: Acronyms should be treated as words and written in camel case, with the first letter of each word capitalized. For example, HTTPReader, not HttpReader.
+Acronyms: Acronyms should be treated as words and written in camel case, with the first letter of each word capitalized. For example, HTTPReader, not HttpReader, employeeID, 
 
 Underscores: Underscores should generally be avoided in names, except for constants. For example, myVariable, not my_variable.
-
-Meaningful names: Use meaningful names that describe the purpose or function of the element. This makes the code more readable and easier to understand for other developers who may be working on the project.
-
-By following these Java naming conventions, your code will be more consistent, readable, and maintainable, making it easier to collaborate with other developers and work on larger projects.

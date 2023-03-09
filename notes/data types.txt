@@ -1,0 +1,15 @@
+Data types
+============
+int		: 4 bytes
+long	: 8 bytes
+short	: 2 bytes
+bytes	: 1 byte
+
+float	: 4 bytes : 3846.32
+double	: 8 bytes : 233.7643434
+
+char	: 2 bytes : can store any single character with quotes: 'a' 
+
+bolean	: 1 byte : store true / false values
+
+==========================================================================
