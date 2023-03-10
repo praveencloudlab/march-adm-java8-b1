@@ -17,6 +17,7 @@ public class Employee {
 	
 	
 	void display() { // instance
+		
 		System.out.println("ID: "+id);
 		System.out.println("Name: "+name);
 		System.out.println("Salary: "+salary);
