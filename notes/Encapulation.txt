@@ -1,0 +1,44 @@
+Encapulation
+----------------
+-> wrapping up methods and properties together in the class
+
+	packages
+		buitin packages
+		user defined packages
+	access modifiers
+		public
+		default
+		protected
+		private
+
+		
+		packages
+		=============
+		-> organise the java project in a meniningful manner
+
+
+		POJO class (Plain old java object) / Bean / Model / Entity
+		rules
+		-----
+			-> every property in the class should be 'private'
+			-> every method in the class should be 'public' with getters and seters 
+
+			getters :content can not be modified:: getXXX ( where XXX is the name of a variable)
+			setters :cantent can be modified :: setXXX ( where XXX is the name of a variable)
+
+			getters will not have arguments, but have return type
+			setters will not have return type, nut have arguments
+
+
+
+	   class relationships : 2 types
+	   1. has 'A' 
+	   2. is 'A' 
+
+	   1. has 'A' :: class forward declaration 
+
+
+
+
+		
+
