@@ -2,9 +2,9 @@ package com;
 
 public class Employee {
 	
-	private int empId;
-	private String empName;
-	private double salary;
+	 private int empId;
+	 private String empName;
+	 private double salary;
 	
 	private Department dept; // Employee class has dept object
 	
@@ -34,16 +34,20 @@ public class Employee {
 	}
 
 	public double getSalary() {
+		// final calculations...
+		salary=salary+2000;
 		return salary;
 	}
 
 	public void setSalary(double salary) {
+		// Verify user information..
+		// if the user is testing, the reject it...
 		this.salary = salary;
 	}
 
 	@Override
 	public String toString() {
-		return "Employee [empId=" + empId + ", empName=" + empName + ", salary=" + salary + ", dept=" + dept + "]";
+		return "Employee [empId=" + empId + ", empName=" + empName + ", salary=" + getSalary() + ", dept=" + dept + "]";
 	}
 
 	

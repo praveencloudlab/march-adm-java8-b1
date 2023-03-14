@@ -1,6 +1,13 @@
 package com;
 
 public class Test {
+	
+	 static void test(Employee obj) {
+		  // some testing code
+		 // obj.salary=100;
+		 obj.setSalary(100);
+		  // test is done ..
+	  }
 
 	public static void main(String[] args) {
 		Department d1=new Department();
@@ -8,9 +15,12 @@ public class Test {
 		d1.setDeptName("HR");
 		
 		Employee emp=new Employee();
+		//emp.empId=10000;
 		emp.setEmpId(10000);
 		emp.setEmpName("Praveen");
-		emp.setSalary(485);
+		//emp.salary=15000;
+		emp.setSalary(15000);
+		test(emp);// test before display ...
 		emp.setDept(d1);
 		
 		/*
