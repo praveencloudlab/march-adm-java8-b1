@@ -27,6 +27,7 @@ public class Student {
 	
 	public void appearForExam() {
 		Paper paper = exam.getPaper();
+		
 		String result = paper.submit();
 		System.out.println("Result: "+result);
 	}

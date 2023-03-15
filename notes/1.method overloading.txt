@@ -1,0 +1,75 @@
+1.method overloading
+	static polymorphism :: compile time 
+2.method overridding
+	dynamic dynamic polymorphism :: runtime
+
+
+1.method overloading
+===========================
+-> same method name with different signature
+	signature
+	-----------
+	1.number of arguments
+	2.types of arguments
+	3.position of arguments
+	note: return type is not consider as signature
+	ex:
+	void f1()
+	void f1(int x)
+	void f1(float x)
+	void f1(int x,int y)
+	void f1(float x,float y)
+	void f1(int x,float y)
+	void f1(float x,int y)
+
+	int f1(int x) { return 100} // invalid
+	void f1(int i,int j) // invalid
+
+	advantages
+	------------
+	1.readability
+	2.reusability
+	3.documentation
+	4.easy to remember method names
+
+ 2.method overridding
+ =======================
+ -> dynamic polymorphism
+ -> same method with same signature
+ -> same signature method should be in sub classes
+ -> same class can not have same signature
+
+ ex:
+  class A{
+     void f1(int x){}
+  }
+
+  class B extends A{ // A is super class to B
+  	
+  	@Override
+  	void f1(int x){} // valid
+  	@Override
+  	void f1(char x){} // invalid 
+  	void f1(int x){} // valid
+  	void f1(float x) {} // valid.
+  }
+
+  note: @Override annotation to make sure super 
+        class method and sub class method have
+        same method signature
+
+
+  Notes
+  =============
+  1.super class object can hold all its sub class obejcts
+  2.super class reference can be used to access all the
+    methods in the super class, and overriden methods of 
+    sub class.
+  3.super class referance can not be used to access the 
+    individual method (a method which is defined only in sub class and not defined in super class) of sub class
+
+    
+
+
+
+
