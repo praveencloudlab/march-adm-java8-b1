@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="com.Person"/>
+    <fullyQualifiedTypeName name="p1.C1"/>
+    <fullyQualifiedTypeName name="com.Department"/>
+    <fullyQualifiedTypeName name="com.DBConnect"/>
+    <fullyQualifiedTypeName name="com.Student"/>
+    <fullyQualifiedTypeName name="com.Registar"/>
+    <fullyQualifiedTypeName name="com.Validator"/>
+    <fullyQualifiedTypeName name="com.Paper"/>
+    <fullyQualifiedTypeName name="com.Exam"/>
+    <fullyQualifiedTypeName name="com.ExamRegistar"/>
+    <fullyQualifiedTypeName name="com.Evaluator"/>
+    <fullyQualifiedTypeName name="com.Demo2"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="com.Employee"/>
+    <fullyQualifiedTypeName name="com.ContractEmployee"/>
+    <fullyQualifiedTypeName name="com.RegularEmployee"/>
 </qualifiedTypeNameHistroy>

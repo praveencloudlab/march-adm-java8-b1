@@ -1,0 +1,24 @@
+Abstract class
+==================
+Why we need: We need abstract classes to mandate sub class to override super class
+abstract methods. What ever the method you want to override on the subclass mandate,
+then that method can be defined as 'abstract' in the super class.
+
+what is abstract class?
+=========================
+-> Abstract class contains zero or more abstract and concrete methods
+-> abstract methods do not have method body. its only method declaration
+-> all the sub classes of abstract class must override all the abstract methods
+   of an abstract class.
+-> if any of sub class of an abstract class is not overriding abstract methods of
+   abstract class, then that sub class must be defined as 'abstract'
+-> abstarct class object can not be created. but we can create a referance to it.
+-> abstract class referance can store all its sub class objects.
+-> reference of an abstarct class can be used to access all the methods of
+   abstract class and overriden methods of sub class.
+-> reference of an abstract class van not be used to access the individual methods
+   of sub class
+
+
+
+	

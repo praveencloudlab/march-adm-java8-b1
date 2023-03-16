@@ -1,0 +1,68 @@
+Interfaces
+==============
+-> an interface is a metghod specificicatiin which contains zero or more abstract
+   methods.
+-> an interface contains only abstract methods
+-> if an interface has zero abstract methods, then its called 'marker interface'
+-> by default every method in the interface is 'public and abstract'
+-> every variable/filed/property in an interface by default 'public static final'
+-> interface object can not created. but we can create a referance to it.
+-> interface referance can store all its sub class objects.
+-> reference of an interface  can be used to access all the methods of
+   interface and overriden methods of sub class.
+-> reference of an interface can not be used to access the individual methods
+   of sub class
+
+ Notes:
+ -> final methods can not be overrriden in the sub classes at any cost
+ -> final class can not be sub classed to any class.
+
+
+  1.a class can extends to another class
+  2.a class can not extends more than one class.
+  3.a class can implements an imnterface
+  4.a class can implements more than one interface
+  5.interface can extends to another interface
+  6.interface can extends more than one interface at-a-time
+  7.interface can not implements another interface
+  8.class can not implements another class
+  9.a class cannnot be defined both as 'final and abstract'
+  10.interface can have another interface
+  10. interface can have another class
+
+
+   imp notes
+   =============
+   -> if a class implements one interface, then its single inheritance
+   -> if a class implements mor ethan one interface, then its multiple inheritance
+   -> abstract class supports partial abstraction 
+   -> interfaces suports 100% abstraction (incase of multiple inheritance only)
+
+   when to use abstract classes and interfaces in real usage?
+   ==============================================================
+   -> interfaces can be used to achive 'extendability' . its always loose coupled
+   -> abstract classes can not support 'extendability'. its always tight coupled
+
+   in simple english,
+   	-> use abstarct classes in case of no changes in the requirements. (no enhancements)   
+   	-> use interfaces in case of many changes in requirements. always have enhancements
+
+
+   	tight couple:  dependeny isues b./w classes
+   	ex: class A has class B.
+   	loose couple: no dependency issues b.w classes.
+
+   	ex: banking application: 
+
+
+
+
+
+
+  
+
+
+
+
+
+
