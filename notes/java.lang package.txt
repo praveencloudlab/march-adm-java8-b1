@@ -1,0 +1,62 @@
+java.lang package
+=====================
+Object class
+String, StringBuffer and StringBuilder
+Wrapper classes
+Garbage Collection (memory management)
+Exception handling
+Threads
+
+
+Object class
+==================
+-> Object class is super class to all the classes in java
+-> Object class can store/hold any other class objects
+	ex: Object obj=new Employee();
+		Object obj=new String();
+-> contains methods which are common for any class in java
+   like folowing
+   
+   hashCode
+   toString
+   equals
+   compareTo
+   getClass
+   clone
+   ---------
+   notify
+   notifyAll
+   wait
+   ---------
+
+   Object : 2 types
+   ==================
+   1.mutable (content of an object can be modified)
+   2.immiutable (content of an object can not be modified)
+
+   hash code?
+   ============
+   hashcode can be assigned in two ways
+   1.simple class objects
+   2.complex class objects
+
+   1.simple class objects
+   ---------------------------
+   -> only one type of content can be stored at at time
+   -> uses unicode (i18n) system to assign hashcode
+   	Ex: String, Integer, Double etc...
+   	Ex: Character ch='A' : hacode can be : 65
+
+   -> hashcode can be customised by overriding hashCode from
+      Object classs
+   -> this customisation will not change actual hashcode from
+      heap memory
+      
+
+
+
+
+
+
+
+

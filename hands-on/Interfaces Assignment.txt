@@ -1,0 +1,21 @@
+Assignment on interfaces 
+========================================
+A customer is performing bank related operations like withdrawing and depositing. now perform the following functionalities in the application
+
+1. Make sure Customer should have access to only withDraw and 
+   deposit functionalities
+2. Make sure Manager of bank have access to lockerAccess and
+   enableNetBanking methods only. these methods must not be 
+   accessed by customer
+3. while customer is performing depoit and withdraw 
+   operations, make sure to send SMS notification like amount credited successfully or amount is debited successfully.
+   (only dummy SMS)
+4. Make this application to be loosely coupled and should 
+   able to support extensibility. means any new features like
+   email notifications,whats app notification functionaloities in the feature should able to add with out any lockins
+5. This application should support SOLID design pattern, Open 
+   and closed peinciple. 
+
+
+
+
