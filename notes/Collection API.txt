@@ -1,0 +1,84 @@
+Collection API
+========================
+Collection - Interface
+List extends Collection
+Set extemds  Collection
+
+List is indexed based data structure
+Set is non-indexed based data structure
+
+List interface has following implementation classes
+	-> ArrayList
+	-> Vectore
+	-> Stack
+	-> LinkedList
+
+Set interface has following implementation classes
+	-> HashSet
+	-> LinkedHahsSet
+	-> TreeSet
+
+one more independent interface which doesnt implements / extends Collection interface : Map interface
+
+Map interface has following implementation classes
+	-> HashMap
+	-> Hashtable
+	-> LinkedHashMap
+	-> TreeMap
+note: Map also non indexed based data structute
+-> stores the data with key and value pares
+	Ex: {mobile_no:109283923}
+
+
+   
+   Generics in Java : Templates in C++
+   ===========================================
+   -> Type safty
+   -> Reusability
+
+
+
+
+   List interface
+   ==================
+   ArtrayList: 
+   1.Its an indexd based 
+   2.Insersion order is same
+   3.duplicates accepted
+   4.its not synchronised
+
+   Set interface
+   ===================
+   => insertion orer is not same
+   => no duplicates
+   => non indexed data structure
+
+   Map interface
+   ===================
+   => with key and value combination
+   => key can not be duplicate
+   => value can be duplicate
+
+   HashMap:
+   	=> key can be null
+   	=> value can be null
+   	=> insertion order is not same
+
+   Hashtable:
+   => Ket can not be null
+   => value can not be null
+   => synchrized
+
+   LinkedHashMap:
+   => everything same like HashSet except insertion order.
+   => Insertin order is same
+
+
+
+
+
+
+
+
+
+
